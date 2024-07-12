@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primaryColor: '#FFFFFF',
+                secondaryColor: '#006BFF',
+                grayColor: '#F0F3F8',
+                headingColor: '#0B3558',
+                textColor: '#476788',
+              },
+              margin: {
+                mainContainerX: '100px',
+                containersTop: '50px',
+              }
+            }
+          }
+        }
+    </script>
+
+    <title>Teams page</title>
+</head>
+<body>
+
+    <header>
+
+        <!-- nav bar element -->
+        <nav class="flex flex-row items-center justify-between border-b bg-primaryColor">
+
+            <div class="container mx-auto flex flex-row items-center space-x-[300px]">
+
+                <div class="flex flex-row items-center">
+                    <img src="https://play-lh.googleusercontent.com/0FNnNtu7VCpoP0ZJFWdvoGKFe3RIhk2cnDIR1NcNBu82V93LHwDHP1G7IfyYblctng" class="w-[50px]" alt="" srcset="">
+                    <span class="text-secondaryColor text-[22px] font-semibold">Calendly</span>
+                </div>
+    
+                <ul class="flex flex-row items-center space-x-[20px] hidden md:flex">
+                    <li class="">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="">
+                        <a href="individual-page.html">Individuals</a>
+                    </li>
+                    <li class="w-fit text-secondaryColor">
+                        <a href="#">Teams</a>
+                    </li>
+                    <li class="">
+                        <a href="enterprise-page.html">Enterprise</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="pr-3">
+                <i class="fa-solid fa-bars-staggered md:hidden cursor-pointer"></i>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main class="mainContainerX">
+
+    </main>
+
+        <div>
+
+            <div class="flex flex-col md:flex-row items-center justify-center md:space-x-[50px] p-3 mt-containersTop">
+
+                <div class="flex flex-col gap-5">
+                    <p class="text-3xl font-black">
+                        <span class="text-secondaryColor">Power up</span>
+                        <br>your terms 
+                    </p>
+                    <p class="font-medium">
+                        Calendly gives you control over team scheduling with a 
+                        <br> standardized, scalable process. It's secure, easy to
+                        <br>manage, and integrates with your team's  
+                        <br>favorite tools, so you can get everyone working as 
+                        <br>efficiently and effectively as possible. 
+                    </p>
+
+                    <div class="flex flex-row items-center gap-5">
+
+                        <input type="button" class="py-2 px-4 border cursor-pointer hover:drop-shadow-md ease-in-out duration-300 bg-secondaryColor text-primaryColor rounded-full w-fit" value="Start for free">
+                        <input type="button" class="py-2 px-4 border cursor-pointer hover:drop-shadow-md ease-in-out duration-300  bg-primaryColor text-[#000000] rounded-full w-fit" value="Contact Sales">
+
+                    </div>
+                </div>
+
+                <img src="./images/Calendly-Email-Embed-Recruiting.png" class="md:max-w-[40%] mt-containersTop md:mt-0" alt="Calendly-IT" srcset="">
+            
+            </div>
+
+            <div>
+
+                <p class="md:text-center text-headingColor font-black text-3xl mt-containersTop px-2">Streamline tasks, extend team <br class="hidden md:flex">reach</p>
+
+                <div class="flex flex-col-reverse md:flex-row items-center justify-center md:space-x-[50px] p-3 mt-containersTop">
+    
+                    <img src="./images/Calendly-Education.png" class="md:max-w-[40%] mt-containersTop md:mt-0" alt="Calendly-Recruiting" srcset="">
+                    
+                    <div class="flex flex-col gap-5">
+    
+                        <p class="text-secondaryColor font-bold">AUTOMATED ASSIGNMENT</p>
+                        <p class="text-2xl font-bold">
+                            Control how your team gets <br>booked
+                        </p>
+                        <p class="font-medium">
+                            When invitees select a meeting slot from your schedule, they 
+                            <br> only see the times you are available, and only the length and
+                            <br>type of meeting you want to have. Your schedule fills up
+                            <br>efficiently, and everyone avoids excess email exchanges.
+                        </p>
+    
+                    </div>
+                
+                </div>
+
+            </div>
+
+            <div class="mt-containersTop">
+
+                <p class="text-secondaryColor text-center font-bold">SOLUTIONS</p>
+
+                <p class="text-center text-headingColor font-black text-3xl ">The right Calendly for the work you do</p>
+
+                <div class="flex flex-row flex-wrap p-3 md:p-0 items-center justify-center gap-5 mt-[50px]">
+                    
+                    <div class="flex flex-col border rounded-lg bg-primaryColor cursor-pointer drop-shadow-sm hover:drop-shadow-lg duration-300">
+
+                        <img src="https://media.istockphoto.com/id/1434116614/photo/teamwork-diversity-and-sales-manager-planning-branding-ideas-with-a-creative-designer-on-a.jpg?s=612x612&w=0&k=20&c=0qDHz0EDKEgxqcRP7V-YWaGv9nrjKDXG5lz8svrlbcQ=" class="md:w-[220px] md:h-[110px] rounded-t-lg" alt="" srcset="">
+
+                        <div class="p-5 space-y-[30px]">
+
+                            <span class="space-y-3">
+                                <p class="font-bold text-headingColor heading">Sales</p>
+                                <p class="text-[14px]">Get your best leads faster</p>
+                            </span>
+    
+                            <span class="flex flex-row items-center gap-3 hover:gap-5 duration-300 w-fit">
+                                <p class="text-secondaryColor font-medium text-[14px]"><a href="">Learn more</a></p>
+                                <i class="fa-solid fa-angle-right text-secondaryColor text-[14px]"></i>
+                            </span>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="flex flex-col border rounded-lg bg-primaryColor cursor-pointer drop-shadow-sm hover:drop-shadow-lg duration-300">
+
+                        <img src="https://media.istockphoto.com/id/1334737130/photo/handshake-for-the-new-agreement.jpg?s=612x612&w=0&k=20&c=wJvcB4xnQ5U0chNnGbscyuOjXil5hVgBOrio86TpRNk=" class="md:w-[220px] md:h-[110px] rounded-t-lg" alt="" srcset="">
+
+                        <div class="p-5 space-y-[30px]">
+
+                            <span class="space-y-3">
+                                <p class="font-bold text-headingColor heading">Recruiting</p>
+                                <p class="text-[14px]">Less emailing, more closing</p>
+                            </span>
+    
+                            <span class="flex flex-row items-center gap-3 hover:gap-5 duration-300 w-fit">
+                                <p class="text-secondaryColor font-medium text-[14px]"><a href="">Learn more</a></p>
+                                <i class="fa-solid fa-angle-right text-secondaryColor text-[14px]"></i>
+                            </span>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="flex flex-col border rounded-lg bg-primaryColor cursor-pointer drop-shadow-sm hover:drop-shadow-lg duration-300">
+
+                        <img src="https://media.istockphoto.com/id/1365436662/photo/successful-partnership.jpg?s=612x612&w=0&k=20&c=B1xspe9Q5WMsLc7Hc9clR8MWUL4bsK1MfUdDNVNR2Xg=" class="md:w-[220px] md:h-[110px] rounded-t-lg" alt="" srcset="">
+
+                        <div class="p-5 space-y-[30px]">
+
+                            <span class="space-y-3 text-wrap">
+                                <p class="font-bold text-headingColor heading">Customer success</p>
+                                <p class="text-[14px]">Easily connect with cust...</p>
+                            </span>
+    
+                            <span class="flex flex-row items-center gap-3 hover:gap-5 duration-300 w-fit">
+                                <p class="text-secondaryColor font-medium text-[14px]"><a href="">Learn more</a></p>
+                                <i class="fa-solid fa-angle-right text-secondaryColor text-[14px]"></i>
+                            </span>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="flex flex-col border rounded-lg bg-primaryColor cursor-pointer drop-shadow-sm hover:drop-shadow-lg duration-300">
+
+                        <img src="https://media.istockphoto.com/id/1500076821/photo/happy-black-teenage-girl-in-high-school-hallway-looking-at-camera.jpg?s=612x612&w=0&k=20&c=Kc1x5IRZz7dqtUNt8k3zFB6ZKJz4CIiT-tbB0FFmAww=" class="md:w-[220px] md:h-[110px] rounded-t-lg" alt="" srcset="">
+
+                        <div class="p-5 space-y-[30px]">
+
+                            <span class="space-y-3">
+                                <p class="font-bold text-headingColor heading">Education</p>
+                                <p class="text-[14px]">Boost student success</p>
+                            </span>
+    
+                            <span class="flex flex-row items-center gap-3 hover:gap-5 duration-300 w-fit">
+                                <p class="text-secondaryColor font-medium text-[14px]"><a href="">Learn more</a></p>
+                                <i class="fa-solid fa-angle-right text-secondaryColor text-[14px]"></i>
+                            </span>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    <footer>
+
+        <div class="container mx-auto grid grid-cols-2 lg:grid-cols-4 gap-y-[20px] lg:gap-y-0 pl-[20px] mt-containersTop border-t py-5">
+
+            <div class="flex flex-col justify-between">
+
+                <div>
+                    
+                    <span class="text-headingColor font-black text-2xl">
+                        Easy <br> <span class="text-secondaryColor">ahead</span>
+                    </span>
+                    <p class="text-[12px] text-headingColor mt-5">
+                        We take the work out of connecting with others
+                        <br> so you can accomplish more.
+                    </p>
+
+                </div>
+
+                <select name="" id="" class="border outline-0 max-w-[80%] rounded-md p-2 text-[12px] font-bold">
+                    <option value="">English</option>
+                    <option value="">French</option>
+                    <option value="">Spanish</option>
+                </select>
+
+            </div>
+
+            <div>
+
+                <ul class="flex flex-col gap-5 text-[13px]">
+
+                    <li class="w-fit text-[20px] text-headingColor font-bold">
+                        About
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">About Calendly</a>
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Contact Sales</a>
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Newsroom</a>
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Careers</a>
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Security</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div>
+                
+                <ul class="flex flex-col gap-5 text-[13px]">
+                    <li class="w-fit text-[20px] text-headingColor font-bold">
+                        Solutions
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Customer Success</a>
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Sales</a>
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Recruiting</a>
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Education</a>
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Marketing</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                
+                <ul class="flex flex-col gap-5 text-[13px]">
+                    <li class="w-fit text-[20px] text-headingColor font-bold">
+                        Popular Features
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Embed Calendly</a>
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Availability</a>
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Sending Notifications</a>
+                    </li>
+                    <li class="hover:underline w-fit text-headingColor font-medium">
+                        <a href="">Using Calendly Mobile</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
